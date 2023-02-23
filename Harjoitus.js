@@ -5,6 +5,11 @@ app.get('/', function (req, res){
 res.send('Hello world!')
 });
 
+app.get('/list', function (req, res){
+    res.send('Lista')
+    });
+
 app.listen(8081, function (){
 console.log('Example app listening on port 8081!')
 });
+
